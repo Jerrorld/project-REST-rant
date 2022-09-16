@@ -6,6 +6,7 @@ function error404 () {
         <Def>
             <main>
                 <h1>404: PAGE NOT FOUND</h1>
+                <img src='images/dalton-smith-L7FlWWg1ci0-unsplash.jpg' alt='bowl of noodles'></img>
                 <p>Oops, sorry, we can't find this page!</p>
             </main>
         </Def>
