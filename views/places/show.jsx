@@ -13,7 +13,7 @@ function show (data) {
                 <p>currently unrated</p>
             </div>
             <h2>Description</h2>
-            <p>Located in {data.place.city}, {data.place.state}<br></br>
+            <p>{data.place.showEstablished()}<br></br>
             Serving {data.place.cuisines}</p>
 
             <a href={`/places/${data.id}/edit`} className="btn btn-warning"> 
