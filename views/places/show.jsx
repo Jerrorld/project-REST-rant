@@ -55,16 +55,16 @@ function show (data) {
                   <h2>Description</h2>
                     <p>{data.place.showEstablished()}<br></br>
                       Serving {data.place.cuisines}</p>
-                <a href={`/places/${data.id}/edit`} className="btn btn-warning"> 
+                <a href={`/places/${data.place.id}/edit`} className="btn btn-warning"> 
                     Edit
                 </a> 
-                <form method='POST' action={`/places/${data.id}?_method=DELETE`}>
+                <form method='POST' action={`/places/${data.place.id}?_method=DELETE`}>
                     <button type='submit' className='btn btn-danger'>
                         Delete
                     </button>
                 </form>
                 </div>
-              
+
                 <hr/>
                 <h2>Comments</h2>
                   {comments}
